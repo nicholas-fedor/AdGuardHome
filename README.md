@@ -318,13 +318,13 @@ There are three options how you can install an unstable version:
    Script to install a beta version:
 
    ```sh
-   curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -c beta
+   curl -o install-adguardhome.sh https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh && sh ./install-adguardhome.sh -v -c beta
    ```
 
    Script to install an edge version:
 
    ```sh
-   curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -c edge
+   curl -o install-adguardhome.sh https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh && sh ./install-adguardhome.sh -v -c edge
    ```
 
 [wiki-platf]: https://github.com/AdguardTeam/AdGuardHome/wiki/Platforms
